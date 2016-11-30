@@ -2,7 +2,7 @@
   "name": "stbadminton",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/andyfhd/stbadminton#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "serve-favicon": "^2.3.2"
   }
 }
