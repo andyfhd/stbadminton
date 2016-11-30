@@ -14,6 +14,14 @@ app.get('/', function (req, res) {
     res.render('pages/index');
 });
 
+app.get('/index', function (req, res) {
+    res.render('pages/index');
+});
+
+app.get('/about', function (req, res) {
+    res.render('pages/about');
+});
+
 var server = app.listen(8080, function () {
     console.log('server is running at %s', server.address().port);
 });
